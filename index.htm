@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Example</title>
+</head>
+<body>
+  <script>
+    // Function to handle the login process
+    function login() {
+      var username = prompt("Enter your username:");
+      var password = prompt("Enter your password:");
+      
+      // Check if username and password are correct
+      if (username === "admin" && password === "password") {
+        alert("Login successful!");
+      } else {
+        alert("Login failed. Please try again.");
+      }
+    }
+  </script>
+
+  <button onclick="login()">Login</button>
+</body>
+</html>
